@@ -10,8 +10,7 @@ if(localStorage.getItem('lista') !== null) {
     for (const itens of lista) {
         listaTarefas.appendChild(montaTarefa(itens))
     }
-
-
+    
 }
 
 //Função com o propósito de montar o <li> com o item inserido e o <button> de exclusão
